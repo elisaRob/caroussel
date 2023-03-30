@@ -9,11 +9,13 @@
 
 body{
     height:100vh;
+    
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:bisque
+    background-color:bisque;
+    overflow:hidden;
 }
 
 h1{
@@ -87,5 +89,27 @@ img{
 
 .btn:hover:before{
     transform:translate(0,0)
+}
+
+@media screen and (max-width:551px){
+    .images{
+        width:400px;
+        height:400px;
+       
+    }
+}
+
+@media screen and (max-width:442px){
+    .images{
+        width:300px;
+        height:300px;
+    }
+}
+
+@media screen and (max-width:336px){
+    .images{
+        width:250px;
+        height:250px;
+    }
 }
 
