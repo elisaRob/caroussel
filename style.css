@@ -42,6 +42,7 @@ img{
     object-fit: cover;
     transform:translateX(0);
     position:relative;
+    object-position: center;
 }
 
 
